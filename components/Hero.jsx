@@ -44,6 +44,17 @@ export default function Hero() {
                         <UilPhone color="white"></UilPhone>
                     </div>
                 </div>
+
+                <div className={css.Pizza}>
+                    <div>
+                        <Image src={Pizza1} alt='' objectFit='cover' layout='intrinsic'></Image>
+                    </div>
+
+                    <div className={css.details}>
+                        <span>Italian Pizza</span>
+                        <span> <span style={{color: "var(--themeRed)"}}>$</span> 7.49</span>
+                    </div>
+                </div>
             </div>
         </div>
     )
